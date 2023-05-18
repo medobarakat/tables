@@ -1,0 +1,212 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Responsive Breakpoints for general styles */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* report 1 Styles */
+/* report 1 Styles header */
+.report1{
+    border: 1px solid black;
+}
+
+.report1 .header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.report1 .header .header-sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.report1 .header .header-sec2 .choices {
+    display: flex;
+}
+
+.report1 .header .header-sec2 .choices .selection {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid rgb(232, 232, 232);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.report1 .header .header-sec2 .choices .selection .empty-choice {
+    width: 20px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(202, 199, 199);
+    margin-left: 5px;
+}
+
+
+.report1 .header .header-sec3,
+.report1 .header .header-sec2,
+.report1 .header .header-sec1 {
+    margin-top: 15px
+}
+
+.report1 .header .header-sec1 p,
+.report1 .header .header-sec3 p {
+    margin-top: 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.report1 .header .header-sec3 .under-red-txt {
+    position: relative;
+}
+
+.report1 .header .header-sec3 .red-txt-top {
+    position: absolute;
+    top: -2px;
+    left: 60px;
+    color: red;
+}
+
+.report1 .header .header-sec3 .red-txt-top p {
+    font-size: 13px;
+}
+
+/* report 1 Styles body */
+
+.report1 .body table {
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.report1 .body th {
+    background-color: #e3efd9;
+}
+
+.report1 .body th,
+.report1 .body td {
+    border: 2px solid #000;
+    padding: 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+
+}
+
+.report1 .body th:nth-child(6),
+.report1 .body td:nth-child(6) {
+    width: 50px;
+    /* Adjust the width as per your requirement */
+}
+
+.report1 .body th:nth-child(5),
+.report1 .body td:nth-child(5) {
+    width: 100px;
+}
+
+.report1 .body th:nth-child(4),
+.report1 .body td:nth-child(4) {
+    width: 200px;
+}
+
+.report1 .body th:nth-child(3),
+.report1 .body td:nth-child(3) {
+    width: 70px;
+}
+
+.report1 .body th:nth-child(2),
+.report1 .body td:nth-child(2) {
+    width: 150px;
+}
+
+.report1 .body th:nth-child(1),
+.report1 .body td:nth-child(1) {
+    width: 200px;
+}
+
+.report1 .body2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -32px;
+}
+
+.report1 .body2 .right-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.report1 .body2 .right-txt p {
+    padding: 10px;
+}
+
+.report1 .body2 table {
+    width: 91%;
+    table-layout: fixed;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.report1 .body2 th,
+.report1 .body2 td {
+    border: 2px solid #000;
+    padding: 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.report1 .footer p {
+    padding: 10px;
+    margin-left: 13rem;
+}
