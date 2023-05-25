@@ -373,6 +373,122 @@
 }
 /* end report 2 Styles  */
 /* start of report 3 styles */
+.report3 .header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.report3 .header .header-sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.report3 .header .header-sec2 .provider{
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+
+
+.report3 .header .header-sec3,
+.report3 .header .header-sec2,
+.report3 .header .header-sec1 {
+    margin-top: 15px
+}
+
+.report3 .header .header-sec1 p,
+.report3 .header .header-sec3 p {
+    margin-top: 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.report3 .header .header-sec3 .under-red-txt {
+    position: relative;
+}
+
+.report3 .header .header-sec3 .red-txt-top {
+    position: absolute;
+    top: 12px;
+    left: 35px;
+    color: red;
+}
+
+.report3 .header .header-sec3 .red-txt-top p {
+    font-size: 13px;
+}
+
+.report3 .header2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5px;
+}
+.report3 .header2 .right-part{
+   width: 40%;
+   margin-right: 20%;
+   margin-left: 20%;
+}
+.report2 .header2 .left-part{
+    width: 20%;
+ }
+
+ .report3 .header2 .right-part .txt-container{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .report3 .header2 .left-part .txt-container{
+    display: flex;
+    flex-direction: column;
+}
+.report3 .header2 .left-part .txt-container p{
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.report3 .header2 .left-part .txt-container p:first-child{
+    background-color: #e3efd9;
+
+}
+.report3 .header2 .left-part .txt-container p{
+    background-color: #fce3d6;  
+}
+
+.report3 .header2 .center-part{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.report3 .choices {
+    display: flex;
+}
+
+.report3 .choices .selection {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid rgb(232, 232, 232);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.report3 .choices .selection .empty-choice {
+    width: 20px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(202, 199, 199);
+    margin-left: 5px;
+}
+
 .report3 .body table {
     width: 100%;
     table-layout: fixed;
@@ -403,7 +519,6 @@
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
-    margin-bottom: 3rem;
 }
 
 .report3 .body2 th {
@@ -442,4 +557,23 @@
    margin-right: 60%;
 
 }
+
+.report3 .body2 .second-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 3rem;
+
+    
+}
+.report3 .body2 .second-table .inner-second-table{
+    margin-right: 25%;
+ 
+ }
+
+ .report3 .body2 .second-table .inner-second-table p{
+    margin-top:10px;
+    margin-bottom: 10px;
+ }
 /* end report 3 Styles */
