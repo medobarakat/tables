@@ -467,8 +467,19 @@
     justify-content: center;
 }
 
+.report3 .header2 .center-part .txt-container p:first-child{
+    border: 1px solid; 
+    padding: 10px;
+}
+
+.report3 .header2 .center-part .txt-container p{
+
+    padding: 10px;
+}
+
 .report3 .choices {
     display: flex;
+    border: 1px solid;
 }
 
 .report3 .choices .selection {
@@ -477,13 +488,13 @@
     border: 1px solid rgb(232, 232, 232);
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 
 .report3 .choices .selection .empty-choice {
-    width: 20px;
-    height: 30px;
+    width: 40px;
+    height: 60px;
     background-color: white;
     border: 1px solid rgb(202, 199, 199);
     margin-left: 5px;
