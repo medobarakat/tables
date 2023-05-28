@@ -1,3 +1,5 @@
+# EjadTech Report Templates
+
 | Report              | Form Number | Description |
 |---------------------|-------------|-------------|
 | مستند صرف رجيع     | نموذج رقم 10 | Report 1 |
