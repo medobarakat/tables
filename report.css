@@ -1,0 +1,194 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Responsive Breakpoints for general styles */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.report{
+    border: 1px solid black;
+}
+
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 10px;
+}
+.rightContent{
+    align-items: center;
+}
+
+.rightContent p:first-child{
+    margin-top: 10px;
+}
+
+.rightContent p{
+    margin-top: 20px;
+}
+
+.rightContent p:last-child{
+    margin-bottom: 20px;
+}
+
+.leftContent p{
+    margin-top: 20px;
+}
+.content{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: right;
+
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.table {
+    display: table;
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .cell {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: 2.5rem
+  }
+  
+  .separator {
+    margin: 0 80px; 
+    color: #ccc; 
+  }
+  .lowertable P:last-child{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.choose{
+    margin-right: 7rem;
+}
+.choosetitle{
+    text-decoration: underline;
+}
+.thechoose{
+    margin:1rem 0rem
+}
+.thechoose , .theText , .switcher{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+}
+
+.switcher{
+    width: 10rem;
+    justify-content: space-around;
+}
+
+.firstSwitch{
+    margin-right: 5rem;
+}
+.secondSwitch{
+    margin-right: 6.8rem;
+}
+.thirdSwitch{
+    margin-right: 6.7rem;
+
+}
+.forthSwitch{
+    margin-right: 0.37rem;
+
+}
+.fifthSwitch{
+    margin-right: 6.26rem;
+
+}
+.signs , .lastSigns{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin:2rem 0rem;
+}
+.thesign p{
+    margin-top: 16px;
+}
+.lastSec{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+.firstone p , .leftone p{
+    margin-top: 1rem;
+}
+.middleone p{
+    margin:1rem 0rem
+    
+}
+.middleone{
+    border: 1px solid black;
+    padding: 0rem 1rem;
+    border-top: none;
+    border-bottom: none;
+}
+.signature{
+    text-align: center;
+}
+.signature p{
+    margin-bottom: 1rem;
+}
